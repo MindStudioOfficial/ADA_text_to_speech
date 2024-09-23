@@ -1,0 +1,17 @@
+name: ADA_audio
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - requests
+  - matplotlib
+  - ipykernel
+  - librosa
+  - pip
+  - pip:
+      - audioFX
+      - soundfile
+      - python-dotenv
